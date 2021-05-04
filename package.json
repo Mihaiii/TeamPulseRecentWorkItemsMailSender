@@ -1,0 +1,18 @@
+{
+  "name": "TeamPulseRecentWorkItemsMailSender",
+  "version": "1.0.0",
+  "description": "Script ce trimite email-uri cu item-uri de TeamPulse alocate unuia sau mai multor utilizatori.",
+  "main": "TeamPulseRecentWorkItemsMailSender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mihai Chirculescu",
+  "license": "",
+  "dependencies": {
+    "node-localstorage": "~2.1.6",
+    "nodemailer": "~6.4.6",
+    "odata-query": "~5.7.0",
+    "request": "~2.88.2"
+  }
+}
